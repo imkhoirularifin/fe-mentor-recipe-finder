@@ -1,3 +1,9 @@
+import Navbar from "@/components/shared/navbar";
+
 export default function About() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }

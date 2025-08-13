@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
-import { Button } from "./ui/button";
+import XButton from "../ui/x-button";
 
 const navLinks = [
   {
@@ -31,7 +31,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex flex-row items-center justify-between border-b border-x-neutral-300 p-200">
+    <div className="mx-auto flex max-w-7xl flex-row items-center justify-between border-b border-x-neutral-300 p-200 md:p-250">
       {/* logo */}
       <Link href={"/"}>
         <Image
@@ -58,9 +58,9 @@ export default function Navbar() {
 
       {/* cta button */}
       <Link href={"/recipes"}>
-        <Button variant={"default"} size={"lg"} className="hidden md:block">
+        <XButton variant={"small"} className="hidden md:block">
           Browse Recipes
-        </Button>
+        </XButton>
       </Link>
 
       {/* hamburger menu */}
@@ -99,13 +99,9 @@ export default function Navbar() {
 
           <div className="p-4">
             <Link href={"/recipes"} onClick={handleMenuToggle}>
-              <Button
-                variant={"default"}
-                size={"lg"}
-                className="text-preset-5 w-full text-white"
-              >
+              <XButton variant={"small"} className="w-full">
                 Browse recipes
-              </Button>
+              </XButton>
             </Link>
           </div>
         </nav>
