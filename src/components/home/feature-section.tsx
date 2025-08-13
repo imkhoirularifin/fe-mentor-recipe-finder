@@ -26,7 +26,7 @@ const features = [
 export default function FeatureSection() {
   return (
     <section className="section-container mt-800 gap-400 md:my-1000 md:gap-600 lg:my-1200">
-      <h2 className="text-preset-2-mobile text-x-neutral-900 self-stretch lg:text-center">
+      <h2 className="text-preset-2-mobile self-stretch lg:text-center">
         What you'll get
       </h2>
 

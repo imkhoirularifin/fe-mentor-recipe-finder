@@ -233,6 +233,7 @@
   font-weight: 800;
   line-height: 110%;
   letter-spacing: -2px;
+  color: var(--colors-x-neutral-900);
 }
 
 @utility text-preset-1-mobile {
@@ -241,6 +242,7 @@
   font-weight: 800;
   line-height: 110%;
   letter-spacing: -2px;
+  color: var(--colors-x-neutral-900);
 }
 
 @utility text-preset-1-tablet {
@@ -250,6 +252,7 @@
   font-weight: 800;
   line-height: 110%;
   letter-spacing: -2px;
+  color: var(--colors-x-neutral-900);
 }
 
 @utility text-preset-2-mobile {
@@ -259,6 +262,7 @@
   font-weight: 800;
   line-height: 120%;
   letter-spacing: -2px;
+  color: var(--colors-x-neutral-900);
 }
 
 @utility text-preset-3 {
@@ -268,6 +272,17 @@
   font-weight: 700;
   line-height: 130%;
   letter-spacing: -1px;
+  color: var(--colors-x-neutral-900);
+}
+
+@utility text-preset-4 {
+  font-family: var(--font-nunito);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -1px;
+  color: var(--colors-x-neutral-900);
 }
 
 @utility text-preset-5 {
@@ -277,6 +292,7 @@
   font-weight: 700;
   line-height: 140%;
   letter-spacing: -0.5px;
+  color: var(--colors-x-neutral-800);
 }
 
 @utility text-preset-6 {
@@ -285,6 +301,7 @@
   font-weight: 500;
   line-height: 150%;
   letter-spacing: -0.4px;
+  color: var(--colors-x-neutral-800);
 }
 
 @utility text-preset-7 {
@@ -293,6 +310,7 @@
   font-weight: 600;
   line-height: 150%;
   letter-spacing: -0.3px;
+  color: var(--colors-x-neutral-800);
 }
 
 @utility text-preset-8 {
@@ -302,4 +320,25 @@
   font-weight: 700;
   line-height: 150%;
   letter-spacing: -0.3px;
+  color: var(--colors-x-neutral-800);
+}
+
+@utility text-preset-9 {
+  font-family: var(--font-nunito-sans);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+  color: var(--colors-x-neutral-800);
+}
+
+@utility text-preset-10 {
+  font-family: var(--font-nunito-sans);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+  color: var(--colors-x-neutral-800);
 }

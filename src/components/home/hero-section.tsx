@@ -7,14 +7,14 @@ export default function HeroSection() {
       {/* top */}
       <div className="flex flex-col items-start gap-400">
         <div className="flex flex-col items-start gap-200">
-          <h1 className="text-preset-1-mobile text-x-neutral-900 md:text-preset-1-tablet lg:text-preset-1">
+          <h1 className="text-preset-1-mobile md:text-preset-1-tablet lg:text-preset-1">
             <span className="relative inline-block">
-              <span className="absolute bottom-0 left-0 -z-10 h-1/2 w-full rounded-md bg-orange-500/45"></span>
+              <span className="absolute bottom-0 left-0 -z-10 h-1/2 w-full rounded-md bg-orange-500/45" />
               Healthy
             </span>{" "}
             meals, zero fuss
           </h1>
-          <p className="text-preset-6 text-x-neutral-800 self-center lg:w-[580px] lg:text-center">
+          <p className="text-preset-6 self-center lg:w-[580px] lg:text-center">
             Discover eight quick, whole-food recipes that you can cook
             tonight—no processed junk, no guesswork.
           </p>

@@ -17,8 +17,8 @@ export default function FeatureCard(props: FeatureCardProps) {
       </div>
 
       <div className="flex w-full flex-col gap-150">
-        <h3 className="text-preset-3 text-x-neutral-900">{title}</h3>
-        <p className="text-preset-6 text-x-neutral-800">{description}</p>
+        <h3 className="text-preset-3">{title}</h3>
+        <p className="text-preset-6">{description}</p>
       </div>
     </div>
   );

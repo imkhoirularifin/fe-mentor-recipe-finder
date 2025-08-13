@@ -31,7 +31,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="mx-auto flex max-w-7xl flex-row items-center justify-between border-b border-x-neutral-300 p-200 md:p-250">
+    <header className="mx-auto flex max-w-7xl flex-row items-center justify-between border-b border-x-neutral-300 p-200 md:p-250">
       {/* logo */}
       <Link href={"/"}>
         <Image
@@ -114,6 +114,6 @@ export default function Navbar() {
         }`}
         onClick={handleMenuToggle}
       />
-    </div>
+    </header>
   );
 }
