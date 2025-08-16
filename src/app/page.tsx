@@ -1,4 +1,4 @@
-import CtaSection from "@/components/home/cta-section";
+import CtaSection from "@/components/shared/cta-section";
 import FeatureSection from "@/components/home/feature-section";
 import Footer from "@/components/home/footer";
 import HeroSection from "@/components/home/hero-section";

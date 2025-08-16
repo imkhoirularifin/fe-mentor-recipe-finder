@@ -265,6 +265,16 @@
   color: var(--colors-x-neutral-900);
 }
 
+@utility text-preset-2 {
+  font-family: var(--font-nunito);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: -2px;
+  color: var(--colors-x-neutral-900);
+}
+
 @utility text-preset-3 {
   font-family: var(--font-nunito);
   font-size: 32px;
