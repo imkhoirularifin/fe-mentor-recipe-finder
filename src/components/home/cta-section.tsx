@@ -40,14 +40,14 @@ export default function CtaSection() {
           alt={"Knife Illustration"}
           width={338}
           height={338}
-          className="absolute top-[24px] right-[-70px] hidden lg:inline-block"
+          className="pointer-events-none absolute top-[24px] right-[-70px] hidden select-none lg:inline-block"
         />
         <Image
           src={"images/pattern-fork.svg"}
           alt={"Fork Illustration"}
           width={314}
           height={390}
-          className="absolute bottom-[-17] left-[-73px] hidden lg:inline-block"
+          className="pointer-events-none absolute bottom-[-17] left-[-73px] hidden select-none lg:inline-block"
         />
       </div>
     </section>
