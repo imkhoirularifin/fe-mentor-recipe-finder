@@ -33,7 +33,7 @@ export default function BeyondThePlateSection() {
           alt={"Beyond the plate"}
           width={343}
           height={184}
-          className="rounded-md object-cover md:hidden"
+          className="h-full w-full rounded-md object-cover md:hidden"
         />
         <Image
           src={"/images/about-beyond-the-plate-large.webp"}
