@@ -27,12 +27,12 @@ export default function OurFoodPhilosophySection() {
   return (
     <section className="section-container gap-500 py-600 md:py-1000 lg:flex-row lg:gap-800 lg:py-1200">
       {/* title */}
-      <h2 className="text-preset-2-mobile md:text-preset-2 w-full text-left lg:w-1/3 lg:self-start">
+      <h2 className="text-preset-2-mobile md:text-preset-2 w-full text-left lg:w-[40%] lg:self-start">
         Our food philosophy
       </h2>
 
       {/* content */}
-      <div className="flex flex-col items-center gap-300 lg:w-2/3">
+      <div className="flex flex-col items-center gap-300 lg:w-[60%] lg:gap-600">
         {/* content card */}
         {contents.map((content, index) => (
           <div key={index} className="flex flex-row gap-250">
