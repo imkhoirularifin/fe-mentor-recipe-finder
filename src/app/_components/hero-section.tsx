@@ -1,9 +1,9 @@
 import Image from "next/image";
-import XButton from "../ui/x-button";
+import XButton from "../../components/ui/x-button";
 
 export default function HeroSection() {
   return (
-    <section className="section-container mt-600 gap-500 lg:mt-1000 lg:gap-1000">
+    <section className="section-container gap-500 pt-600 lg:gap-1000 lg:pt-1000">
       {/* top */}
       <div className="flex flex-col items-start gap-400">
         <div className="flex flex-col items-start gap-200">
@@ -27,14 +27,14 @@ export default function HeroSection() {
 
       {/* bottom */}
       <Image
-        src={"/images/image-home-hero-small.webp"}
+        src={"/images/home-hero-small.webp"}
         alt={"Hero Section"}
         width={345}
         height={230}
         className="w-full rounded-lg border-4 border-white md:hidden"
       />
       <Image
-        src={"/images/image-home-hero-large.webp"}
+        src={"/images/home-hero-large.webp"}
         alt={"Hero Section"}
         width={704}
         height={350}

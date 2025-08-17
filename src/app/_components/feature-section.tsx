@@ -2,20 +2,20 @@ import FeatureCard from "./feature-card";
 
 const features = [
   {
-    icon: "/images/icon-whole-food-recipes.svg",
+    icon: "/icons/whole-food-recipes.svg",
     iconAlt: "Icon Carrot",
     title: "Whole-food recipes",
     description: "Each dish uses everyday, unprocessed ingredients.",
   },
   {
-    icon: "/images/icon-minimum-fuss.svg",
+    icon: "/icons/minimum-fuss.svg",
     iconAlt: "Icon Flash",
     title: "Minimum fuss",
     description:
       "All recipes are designed to make eating healthy quick and easy.",
   },
   {
-    icon: "/images/icon-search-in-seconds.svg",
+    icon: "/icons/search-in-seconds.svg",
     iconAlt: "Icon Search",
     title: "Search in seconds",
     description:
@@ -25,7 +25,7 @@ const features = [
 
 export default function FeatureSection() {
   return (
-    <section className="section-container mt-800 gap-400 md:my-1000 md:gap-600 lg:my-1200">
+    <section className="section-container gap-400 pt-800 md:gap-600 md:py-1000 lg:py-1200">
       <h2 className="text-preset-2-mobile self-stretch lg:text-center">
         What you'll get
       </h2>

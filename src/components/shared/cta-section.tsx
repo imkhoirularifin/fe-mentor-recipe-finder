@@ -21,14 +21,14 @@ export default function CtaSection() {
         {/* illustration */}
         {/* md */}
         <Image
-          src={"images/pattern-knife.svg"}
+          src={"/patterns/pattern-knife.svg"}
           alt={"Knife Illustration"}
           width={171}
           height={171}
           className="absolute top-[-50px] right-[-10px] hidden md:inline-block lg:hidden"
         />
         <Image
-          src={"images/pattern-fork.svg"}
+          src={"/patterns/pattern-fork.svg"}
           alt={"Fork Illustration"}
           width={179}
           height={231}
@@ -36,14 +36,14 @@ export default function CtaSection() {
         />
         {/* lg */}
         <Image
-          src={"images/pattern-knife.svg"}
+          src={"/patterns/pattern-knife.svg"}
           alt={"Knife Illustration"}
           width={338}
           height={338}
           className="pointer-events-none absolute top-[24px] right-[-70px] hidden select-none lg:inline-block"
         />
         <Image
-          src={"images/pattern-fork.svg"}
+          src={"/patterns/pattern-fork.svg"}
           alt={"Fork Illustration"}
           width={314}
           height={390}

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function RealLifeSection() {
   return (
-    <section className="section-container mt-800 gap-400 md:mt-1000 md:gap-500 lg:my-1200 lg:flex-row lg:gap-600">
+    <section className="section-container gap-400 pt-800 md:gap-500 md:pt-1000 lg:flex-row lg:gap-600 lg:py-1200">
       <div className="flex flex-col gap-250">
         <h2 className="text-preset-2-mobile">Built for real life</h2>
         <p className="text-preset-6">
@@ -20,14 +20,14 @@ export default function RealLifeSection() {
       </div>
 
       <Image
-        src={"/images/image-home-real-life-small.webp"}
+        src={"/images/home-real-life-small.webp"}
         alt={"Real Life Section"}
         width={380}
         height={254}
         className="rounded-lg md:hidden"
       ></Image>
       <Image
-        src={"/images/image-home-real-life-large.webp"}
+        src={"/images/home-real-life-large.webp"}
         alt={"Real Life Section"}
         width={635}
         height={450}

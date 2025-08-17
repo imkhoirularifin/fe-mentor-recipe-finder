@@ -1,5 +1,6 @@
-import OurMissionSection from "@/components/about/our-mission-section";
+import OurMissionSection from "@/app/about/_components/our-mission-section";
 import Navbar from "@/components/shared/navbar";
+import WhyWeExistSection from "./_components/why-we-exist-section";
 
 export default function About() {
   return (
@@ -7,6 +8,7 @@ export default function About() {
       <Navbar />
       <main>
         <OurMissionSection />
+        <WhyWeExistSection />
       </main>
     </div>
   );

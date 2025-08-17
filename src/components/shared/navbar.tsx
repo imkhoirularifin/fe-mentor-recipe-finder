@@ -35,7 +35,7 @@ export default function Navbar() {
       {/* logo */}
       <Link href={"/"}>
         <Image
-          src={"images/logo.svg"}
+          src={"/logo.svg"}
           alt={"logo"}
           width={242}
           height={32}
@@ -69,7 +69,7 @@ export default function Navbar() {
         onClick={handleMenuToggle}
       >
         <Image
-          src={"images/icon-hamburger-menu.svg"}
+          src={"/icons/hamburger-menu.svg"}
           alt={"hamburger"}
           width={18}
           height={16}
