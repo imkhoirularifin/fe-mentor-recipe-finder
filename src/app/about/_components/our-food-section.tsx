@@ -2,28 +2,33 @@ import Image from "next/image";
 
 const contents = [
   {
-    title: "Cut through the noise.",
+    title: "Whole ingredients first.",
     content:
-      "The internet is bursting with recipes, yet most busy cooks still default to take-away or packaged foods. We curate a tight collection of fool-proof dishes so you can skip the scrolling and start cooking.",
+      "Fresh produce, grains, legumes, herbs, and quality fats form the backbone of every recipe.",
   },
   {
-    title: "Empower home kitchens.",
+    title: "Flavor without compromise.",
     content:
-      "When you control what goes into your meals, you control how you feel. Every recipe is built around unrefined ingredients and ready in about half an hour of active prep.",
+      "Spices, citrus, and natural sweetness replace excess salt, sugar, and additives.",
   },
   {
-    title: "Make healthy look good.",
+    title: "Respect for time.",
     content:
-      "High-resolution imagery shows you exactly what success looks like—because we eat with our eyes first, and confidence matters.",
+      "Weeknight meals should slot into real schedules; weekend cooking can be leisurely but never wasteful.",
+  },
+  {
+    title: "Sustainable choices.",
+    content:
+      "Short ingredient lists cut down on food waste and carbon footprint, while plant-forward dishes keep things planet-friendly.",
   },
 ];
 
-export default function WhyWeExistSection() {
+export default function OurFoodPhilosophySection() {
   return (
     <section className="section-container gap-500 py-600 md:py-1000 lg:flex-row lg:gap-800 lg:py-1200">
       {/* title */}
       <h2 className="text-preset-2-mobile md:text-preset-2 w-full text-left lg:w-1/3 lg:self-start">
-        Why we exist
+        Our food philosophy
       </h2>
 
       {/* content */}
