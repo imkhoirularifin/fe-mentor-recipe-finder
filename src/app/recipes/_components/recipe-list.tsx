@@ -6,7 +6,6 @@ export default function RecipeListSection() {
     <section>
       {/* recipe filter */}
       <RecipeFilter />
-
       {/* recipe cards */}
       <RecipeCards />
     </section>
